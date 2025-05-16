@@ -1,0 +1,19 @@
+{
+    "name": "interview",
+    "version": "1.0.0",
+    "description": "Code tests for interviews",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "aura-scripts test --watchAll",
+        "test:coverage": "aura-scripts test --coverage"
+    },
+    "author": "william.shotton@rbccm.com",
+    "license": "ISC",
+    "devDependencies": {
+        "@TB80/aura-scripts": "^18.1.0",
+        "acorn": "6.1.1",
+        "enzyme": "3.9.0",
+        "enzyme-adapter-react-16": "1.13.1",
+        "enzyme-to-json": "3.3.5"
+    }
+}
